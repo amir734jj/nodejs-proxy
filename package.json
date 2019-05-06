@@ -1,5 +1,16 @@
+
 {
-  "dependencies": {
+ "name": "nodejs-proxy",
+ "version": "1.0.0",
+ "description": "simple proxy in node.js",
+ "main": "server.js",
+ "scripts": {
+ 	"start": "node app.js"
+ },
+ "keywords": [],
+ "author": "Hesamian",
+ "license": "ISC",
+ "dependencies": {
     "node-http-proxy": "^0.2.3"
   }
 }
