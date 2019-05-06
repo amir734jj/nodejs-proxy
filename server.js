@@ -5,4 +5,4 @@ var http = require('http'),
 //
 // Create your proxy server and set the target in the options.
 //
-httpProxy.createProxyServer({target: env.TARGET_URL }).listen(80);
+httpProxy.createProxyServer({target: env.TARGET_URL }).listen(env.PORT || 80);
